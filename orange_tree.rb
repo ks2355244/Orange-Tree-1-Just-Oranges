@@ -13,6 +13,8 @@ class OrangeTree
 
   def age!
     @age += 1
+    if tree.age = 8[{n} 1+n ]
+      puts 
   end
 
   def height!
@@ -63,12 +65,10 @@ end
 
 puts "Year #{tree.age} Report"
 puts "Tree height: #{tree.height} feet"
-puts "Harvest: #{basket.size} oranges with an average diameter of #{{avg_diameter} inches."
+puts "Harvest: #{basket.size} oranges with an average diameter of #{avg_diameter} inches."
 puts ""
 
 tree.age!
 end
 
-  if tree.age = 8,
 puts "Alas, the tree, she is dead!"
-  end
